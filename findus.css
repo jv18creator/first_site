@@ -1,0 +1,59 @@
+
+header h1{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(212, 214, 68, 0.76);
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header span {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(60, 199, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.maps {
+    height: 400px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+body {
+    background-image: url(images/world3.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social {
+    text-align: left;
+    color: bisque;
+    font-size: 25px;
+}
+
+.add{
+    text-align: left;
+    color: bisque;
+    font-size: 28px;
+}
+
+.add p{
+    font-size: 20px;
+    color: lemonchiffon;
+    margin-left: 30px;
+}
+
+section {
+    text-align: left;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}

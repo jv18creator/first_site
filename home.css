@@ -1,0 +1,166 @@
+body{
+    background-color: rgba(197, 186, 186, 0.726);
+    background-size: cover;
+    
+    height:  100%;
+}
+
+/* for build strong */
+header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 35px;
+    font-weight: 300;
+    color: teal;
+    background-color: rgba(172, 255, 47, 0.308);
+}
+
+div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn1{
+    outline: none; /* for removing black on click border */
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer; /* user this tag after outline: none */
+    margin-right: 0px;
+    width: 100px;
+    margin-top: 10px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: #f7e7e78a;
+    color: rgb(49, 126, 126);
+    border-radius: 5px;
+    border: 1px solid rgb(186, 230, 173);
+    box-shadow: 3px 3px rgb(98, 151, 98);
+}
+
+.btn2{
+    outline: none; /* for removing black on click border */
+    cursor:pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: #f7e7e78a;
+    color: teal;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 230, 173);
+    box-shadow: 3px 3px rgb(98, 151, 98);
+}
+
+.btn3{
+    outline: none; /* for removing black on click border */
+    cursor:pointer;
+    margin-right: 0px;
+    /* margin-left: 20px; */
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: #f7e7e78a;
+    color: teal;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 230, 173);
+    box-shadow: 3px 3px rgb(98, 151, 98);
+}
+
+.btn4{
+    outline: none; /* for removing black on click border */
+    cursor:pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-right: 0px;
+    /* margin-left: -20px; */
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: #f7e7e78a;
+    color: teal;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 230, 173);
+    box-shadow: 3px 3px rgb(98, 151, 98);
+}
+
+/* for logo */
+article { 
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* about slidshow */
+
+.slider {
+  overflow: hidden;
+}
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300;
+  }
+  100%{
+    left: -300%;
+  }
+}
+ /* web developer jv */
+.jv {
+  text-align: left;
+  margin-left: 20px;
+  
+}
+
+.prashant {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.bhushan {
+  text-align: left;
+  margin-left: 20px;
+}
